@@ -123,7 +123,7 @@ sphereBody = new CANNON.Body({
 });
 world.addBody(sphereBody);
 
-const timeStep = 1 / 60;
+const timeStep = 1 / 120;
 function animate(time) {
     updateParticules();
     world.step(timeStep);
