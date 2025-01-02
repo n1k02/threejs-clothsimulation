@@ -2,9 +2,11 @@
   "name": "clothsimulation",
   "version": "1.0.0",
   "description": "",
-  "main": "scripts.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "source": "./src/index.html",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
   },
   "keywords": [],
   "author": "",

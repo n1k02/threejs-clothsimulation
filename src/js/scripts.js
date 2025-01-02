@@ -82,11 +82,11 @@ for(let i = 0; i < Nx + 1; i++) {
 }
 
 const clothGeometry = new THREE.PlaneGeometry(1, 1, Nx, Ny);
-
+import textureImg from '../img/texture.jpg'
 const clothMat = new THREE.MeshPhongMaterial({
   side: THREE.DoubleSide,
   //wireframe: true,
-  map: new THREE.TextureLoader().load('./texture.jpg')
+  map: new THREE.TextureLoader().load(textureImg)
 });
 
 const clothMesh = new THREE.Mesh(clothGeometry, clothMat);
