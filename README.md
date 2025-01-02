@@ -1,6 +1,7 @@
 # clothsimulation
 
 "Cloth Simulation Using Distance Constraint - Three.js & Cannon-es Tutorial" YouTube tutorial project files https://youtu.be/PFfV7o6e_c4
+(DEV Version / no dist)
 
 1. Clone the repository;
 2. Open the folder in Visual Studio Code;
